@@ -3,7 +3,6 @@ flake8  # https://github.com/PyCQA/flake8
 flake8-isort  # https://github.com/gforcada/flake8-isort
 flake8-quotes  # https://github.com/zheller/flake8-quotes
 flake8-docstrings  # https://github.com/PyCQA/flake8-docstrings
-autopep8  # https://github.com/hhatto/autopep8
 pre-commit  # https://github.com/pre-commit/pre-commit
 
 # Third party
