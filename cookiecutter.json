@@ -1,6 +1,6 @@
 {
   "project_name": "Project name",
-  "slug": "Project slug",
-  "description": "Project description",
-  "author_name": "Project author"
+  "project_slug": "Project slug",
+  "project_description": "Project description",
+  "project_author_name": "Project author"
 }
