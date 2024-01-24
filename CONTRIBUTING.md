@@ -41,6 +41,7 @@ A commit message must follow the format below:
 Examples:
 
 > research(notebooks): create data pipeline
+
 > docs(readme): add project description
 
 ### Branch names
@@ -55,4 +56,5 @@ A branch name must follow the format below:
 Examples:
 
 > report-models-performance
+
 > research-exploratory-analysis
