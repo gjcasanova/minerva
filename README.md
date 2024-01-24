@@ -1,4 +1,4 @@
-# ATENEA :trident:
+# Minerva :trident:
 
 Hey! It is a general-purpose template for your Data Science project. Just a few steps to start. Let's go!
 
