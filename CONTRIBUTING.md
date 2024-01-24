@@ -27,10 +27,15 @@ A commit message must follow the format below:
 > prefix(context)!: short description
 
 :warning: No commas, no periods.
+
 :warning: Start with imperative verb.
+
 :warning: Symbol ! is for breaking changes only.
+
 :warning: No more than 50 characters.
+
 :warning: Only lowercase letters.
+
 :warning: Description is not required.
 
 Examples:
@@ -44,6 +49,7 @@ A branch name must follow the format below:
 > prefix-short-description
 
 :warning: No more than 4 words.
+
 :warning: Description is not required.
 
 Examples:
