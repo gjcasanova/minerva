@@ -8,13 +8,15 @@ pre-commit  # https://github.com/pre-commit/pre-commit
 # Data science
 numpy  # https://github.com/numpy/numpy
 scipy  # https://github.com/scipy/scipy
+scikit-learn  # https://github.com/scikit-learn/scikit-learn
 pandas  # https://github.com/pandas-dev/pandas
 matplotlib  # https://github.com/matplotlib/matplotlib
-scikit-learn  # https://github.com/scikit-learn/scikit-learn
+seaborn  # https://github.com/mwaskom/seaborn
 jupyterlab  # https://github.com/cookiecutter/cookiecutter
 
 # Development
 ipdb  # https://github.com/gotcha/ipdb
+pytest  # https://github.com/pytest-dev/pytest
 
 # Environment
 python-dotenv  # https://pypi.org/project/python-dotenv
