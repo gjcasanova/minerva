@@ -19,4 +19,4 @@ ipdb  # https://github.com/gotcha/ipdb
 pytest  # https://github.com/pytest-dev/pytest
 
 # Environment
-python-dotenv  # https://pypi.org/project/python-dotenv
+python-dotenv  # https://github.com/theskumar/python-dotenv
