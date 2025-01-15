@@ -20,29 +20,17 @@ Generate a codebase for your project. Follow the steps.
 
     $ cookiecutter https://github.com/gjcasanova/minerva.git
 
-Now jump into your project folder and create a new virtual environment. If you are already using one you must deactivate.
-
-    (.venv) $ deactivate
+The virtual environment will be created automatically, and the required dependencies will be installed. Simply navigate to your project folder and activate the virtual environment to get started.
 
     $ cd my_project_directory
 
-    $ python3 -m venv .venv
-
     $ source .venv/bin/activate
 
-Then install the requirements.
+You can check the dependencies installed.
 
-    (.venv) $ pip install --use-pep517 -r requirements.txt
+    (.venv) $ pip list
 
-Finally set your repository up.
-
-    (.venv) $ git init
-
-    (.venv) $ git add -A
-
-    (.venv) $ pre-commit
-
-    (.venv) $ git commit -m "my_commit_message"
+The pre-commit module will be set up, and the initial commit will be saved automatically. If needed, you can set a remote origin by following the steps below
 
     (.venv) $ git remote add origin https://github.com/my_username/my_repository.git
 
