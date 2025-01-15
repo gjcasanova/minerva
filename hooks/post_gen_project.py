@@ -45,7 +45,7 @@ def init_git():
     try:
         subprocess.run(['git', 'init'], check=True)
         subprocess.run(['git', 'add', '-A'], check=True)
-        subprocess.run(['pre-commit', 'install'], check=True)
+        subprocess.run([f'{PYTHON_ENV_PATH}', '-m', 'pre_commit', 'install'], check=True)
         subprocess.run(['git', 'commit', '-m', 'chore(core): init project'], check=True)
     except subprocess.CalledProcessError as e:
         print(f'{ERROR_COLOR}Git repository initialization failed: {e}{RESET_COLOR}')
